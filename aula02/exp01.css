@@ -1,0 +1,37 @@
+h1{
+
+background-color: rgba(175, 91, 123, 0.959);
+color: azure;
+text-align: center;
+font-size: 50px;
+font-family: 'Pixelify Sans', sans-serif;
+
+}
+
+h2{
+background-color: rgb(61, 92, 92);
+color: aliceblue;
+margin-right: 500px;
+height: 30px;
+
+}
+
+p{
+
+background-color: rgb(129, 129, 190);
+
+
+}
+
+#stilo1{
+
+background-color: blueviolet;
+color: rgb(94, 91, 91);
+
+}
+
+.stilo2{
+
+background-color: bisque;
+;
+}
