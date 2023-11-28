@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    margin: 10px;
+    background-color: rgb(55, 90, 88);
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "img1 titulo img2"
+                          " menuE conteudo menuD"
+                          ;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: blue;
+border: red 1px solid;
+margin: 10px;
+}
+
+.box {
+    background-color: yellow;
+    height: 600px;
+    width: auto;
+    border: white 10px solid;
+    display: grid;
+    grid-template-areas: "div20 div10 div40"
+                         " div20 div30 div40";
+     grid-template-rows: 125px 1fr;
+     grid-template-columns: 100px 1fr 100px;                    
+}
+
+.div10{
+    background-color: red;
+    grid-area: div10;
+}
+
+.div20 {
+background-color: aqua;
+grid-area: div20;
+}
+
+.div30 {
+    background-color: blue;
+    grid-area: div30;
+}
+
+.div40 {
+    background-color: pink;
+    grid-area: div40;
+}
