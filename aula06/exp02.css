@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 10px;
+    background-color: azure;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "l1 l2 l3"
+                          "l4 l5 l6"
+                          "l7 l8 l9";
+    grid-template-rows: 33.33%  33.33%  33.33% ;
+    grid-template-columns: 33.33% 33.33% 33.33% ;                      
+
+}
+
+.l1 {
+    background-color: blue;
+    grid-area: l1;
+    text-align: center;
+
+}
+
+.l2 {
+    background-color: aqua;
+   grid-area: l2;
+   text-align: center;
+
+
+}
+
+.l3 {
+    background-color: pink;
+    grid-area: l3;
+    text-align: center;
+
+}
+
+.l4 {
+    background-color: palevioletred;
+    grid-area: l4;
+    text-align: center;
+
+}
+
+.l5 {
+ background-color: brown;
+ grid-area: l5;
+ text-align: center;
+
+}
+
+.l6{
+    background-color: red;
+    grid-area: l6;
+    text-align: center;
+
+}
+
+.l7 {
+background-color: royalblue;
+grid-area: l7;
+text-align: center;
+
+}
+
+.l8 {
+background-color: violet;
+grid-area: l8;
+text-align: center;
+
+}
+
+.l9 {
+    background-color: khaki;
+    grid-area: l9;
+    text-align: center;
+
+}
+

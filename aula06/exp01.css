@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin: 10px;
+    background-color: azure;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "menu main rigth" 
+                          "menu footer footer";
+    grid-template-rows: 40% 50% 40%;
+    grid-template-columns: 20% 40% 40%;                      
+
+}
+
+.header {
+    background-color: blue;
+    grid-area: header;
+    border: 10px black solid;
+}
+
+.menu {
+    background-color: red;
+    grid-area: menu;
+    border: 10px black solid;
+}
+
+.main {
+    background-color: pink;
+    grid-area: main;
+    border: 10px black solid;
+}
+ .right {
+    background-color: blueviolet;
+    grid-area: rigth;
+    border: 10px black solid;
+ }
+
+ .footer {
+    background-color: palevioletred;
+    grid-area: footer;
+    border: 10px black solid;
+ }
