@@ -1,0 +1,108 @@
+.box {
+    background-color: blue;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: " topo topo topo"
+                          " CE CP CD"
+                          " rodape rodape rodape ";
+   grid-template-columns: 200px 1fr 200px;
+   grid-template-rows: 200px 1fr 200px; 
+   gap: 10px;                      
+}
+
+.topo {
+    grid-area: topo;
+    background-color: red;
+    display: grid;
+    grid-template-areas: " p1 p2 p3 p4";
+    grid-column-start: 1;
+    grid-column-end: 5;
+   
+}
+.p1 {
+    grid-area: p1;
+    background-color: blueviolet;
+}
+
+.p2 {
+    grid-area: p2;
+    background-color: blueviolet;
+}
+
+.p3 {
+    grid-area: p3;
+    background-color: blueviolet;
+}
+
+.p4 {
+    grid-area: p4;
+    background-color: blueviolet;
+}
+
+.CE {
+    grid-area: CE;
+   background-color: pink;
+}
+
+.CP {
+    grid-area: CP;
+   background-color: purple;
+}
+
+.CD {
+    grid-area: CD;
+    background-color: navajowhite;
+    grid-template-areas: "P1 P2"
+                        " P3 P4"
+                        " P5 P6"
+                        " P7 P8";
+   
+    gap: 10px;                  
+
+}
+
+.rodape {
+    grid-area: rodape ;
+  background-color: lightgreen;
+}
+
+.P1 {
+    grid-area: P1;
+    background-color: aquamarine;
+}
+
+.P2 {
+    grid-area: P2;
+    background-color: aquamarine;
+}
+
+.P3 {
+    grid-area: P3;
+    background-color: aquamarine;
+}
+
+.P4 {
+    grid-area: P4;
+    background-color: aquamarine;
+}
+
+.P5 {
+    grid-area: P5;
+    background-color: aquamarine;
+}
+
+.P6 {
+    grid-area: P6;
+    background-color: aquamarine;
+}
+
+.P7 {
+    grid-area: P7;
+    background-color: aquamarine;
+}
+
+.P8 {
+    grid-area: P8;
+    background-color: aquamarine;
+}

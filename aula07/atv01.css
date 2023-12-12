@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: blue;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas:"l1 l8 l8 l8 l8 l2"
+                        "l3 l8 l8 l8 l8 l4"
+                        " l5 l8 l8 l8 l8 l6"
+                        " l7 l8 l8 l8 l8 l9"
+                        " l10 l11 l12 l13 l14 l15"  ;
+ grid-template-rows: 20% 20% 20% 20% 20%;
+ grid-template-columns: 16,7% 16,7% 16,7% 16,7% 16,7% 16,7%;
+ gap: 10px;
+ text-align: center;
+}
+
+.l1 {
+    grid-area: l1;
+    background-color: brown;
+}
+
+.l2 {
+    grid-area: l2;
+    background-color: brown;
+}
+
+.l3 {
+    grid-area: l3;
+    background-color: brown;
+}
+
+.l4 {
+    grid-area: l4;
+    background-color: brown;
+}
+
+.l5 {
+    grid-area: l5;
+    background-color: brown;
+}
+
+.l6 {
+    grid-area: l6;
+    background-color: brown;
+}
+
+.l7 {
+    grid-area: l7;
+    background-color: brown;
+}
+
+.l8 {
+    grid-area: l8;
+    background-color: brown;
+}
+
+.l9 {
+    grid-area: l9;
+    background-color: brown;
+}
+
+.l10 {
+    grid-area: l10;
+    background-color: brown;
+}
+
+.l11 {
+    grid-area: l11;
+    background-color: brown;
+}
+
+.l12 {
+    grid-area: l12;
+    background-color: brown;
+}
+
+.l13 {
+    grid-area: l13;
+    background-color: brown;
+}
+
+.l14 {
+    grid-area: l14;
+    background-color: brown;
+}
+
+.l15 {
+    grid-area: l15;
+    background-color: brown;
+}
+
+

@@ -1,0 +1,62 @@
+.box {
+    background-color: blue;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: " topo topo topo"
+                          " CE CP CD"
+                          " rodape rodape rodape ";
+   grid-template-columns: 200px 1fr 200px;
+   grid-template-rows: 200px 1fr 200px; 
+   gap: 10px;                      
+}
+
+.topo {
+    grid-area: topo;
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: " p1 p2 p3 p4";
+    grid-column-start: 1;
+    grid-column-end: 5;
+    gap: 10px;
+}
+.p1 {
+    grid-area: p1;
+    background-color: blueviolet;
+}
+
+.p2 {
+    grid-area: p2;
+    background-color: blueviolet;
+}
+
+.p3 {
+    grid-area: p3;
+    background-color: blueviolet;
+}
+
+.p4 {
+    grid-area: p4;
+    background-color: blueviolet;
+}
+
+.CE {
+    grid-area: CE;
+    background-color: aqua;
+}
+
+.CP {
+    grid-area: CP;
+    background-color: aqua;
+}
+
+.CD {
+    grid-area: CD;
+    background-color: aqua;
+}
+
+.rodape {
+    grid-area: rodape ;
+    background-color: aqua;
+}
+
