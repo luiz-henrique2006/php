@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    background-color: blue;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: " header header header"
+                          " principal principal lateral "
+                          " rodape rodape rodape";
+   grid-template-columns: 1fr 1fr 240px;
+   grid-template-rows: 80px 600fr 80px;
+
+    
+}
+
+.header {
+    background-color: red;
+    grid-area: header;
+    display: grid;
+}
+
+.principal {
+    background-color: yellow;
+    grid-area: principal;
+    display: flex;
+}
+
+.lateral{
+    background-color: blueviolet;
+    grid-area: lateral;
+    display: grid;
+}
+
+.rodape {
+    background-color: burlywood;
+    grid-area: rodape;
+    display: flex;
+    flex-direction: row;
+}
+.c1,.c2,.c3 {
+    width: 100%;
+    height: 33.33%;
+    background-color: orange;
+}
+
+.c2 {
+    background-color: blue;
+    width: 100%;
+    height: 33.33%;
+}
+
+.p1,.p2,.p3 {
+    background-color: green;
+    width: 400px;
+    height: 80px;
+}
+
+.p2 {
+    height: 80px;
+    width: 800px;
+    background-color: greenyellow;
+}
+
+
