@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+.box {
+   background-color: bisque;
+    height: 660px;
+    width: auto;
+    display: grid;
+    grid-template-areas: " esquerdo topo direito"
+                          " esquerdo principal direito"
+                           " esquerdo rodape direito";
+    grid-template-columns: 300px 1fr 200px;
+    grid-template-rows: 100px 1fr 100px;                         
+}
+
+.esquerdo {
+    background-color: rgb(12, 241, 4);
+    grid-area: esquerdo;
+    height: 600px;
+    display: grid;
+    grid-template-areas: 'div1'
+                         'div2'
+                         'div3';
+    grid-template-rows: 33.3% 33.3% 33.4%;
+    grid-template-columns: 100%;
+}
+
+.topo {
+    background-color: red;
+    grid-area: topo;
+}
+
+.direito {
+    background-color: yellow;
+    grid-area: direito;
+}
+
+.rodape {
+    background-color: green;
+    grid-area: rodape;
+}
+
+.principal {
+    background-color: bisque;
+    grid-area: principal;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.div1 {
+    background-color: brown;
+    grid-area: div1;
+}
+
+.div2{
+    background-color: yellow;
+    grid-area: div2;
+}
+
+.div3{
+    background-color: greenyellow;
+    grid-area: div3;
+}
+
+
+
+
+
