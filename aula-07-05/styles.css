@@ -1,0 +1,14 @@
+body{
+   margin: 25px;
+}
+
+h2{
+    background-color: pink;
+}
+
+pre{
+background-color: brown;
+    padding:  15px;
+    font-size: 25px;
+    color: aliceblue;
+}
